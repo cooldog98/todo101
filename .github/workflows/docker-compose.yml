@@ -26,10 +26,10 @@ jobs:
     
     - name: 🦥 Tag & Push Backend image
       run: |
-        docker tag todo101-backend aongcooldog/todo-backend:latest
-        docker push aongcooldog/todo-backend:latest
+        docker tag todo101-todo-backend aongcooldog/todo-backend:latest
+          docker push aongcooldog/todo-backend:latest
 
     - name: 🦥 Tag & Push Frontend image
       run: |
-        docker tag todo101-frontend aongcooldog/todo-frontend:latest
-        docker push aongcooldog/todo-frontend:latest
+        docker tag todo101-todo-frontend aongcooldog/todo-frontend:latest
+          docker push aongcooldog/todo-frontend:latest
