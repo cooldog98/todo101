@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: 📺 checkout repository
-      uses: docker/checkout@v3
+      uses: actions/checkout@v3
 
     - name: ✨ Log in to Docker Hub
       uses: docker/login-action@v2
