@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>To-Do App 1.0</h1>
+      <h1>To-Do App Version 1.0</h1>
       <input value={text} onChange={(e) => setText(e.target.value)} />
       <button onClick={addTask}>Add</button>
       <ul>
